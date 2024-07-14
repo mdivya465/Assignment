@@ -1,0 +1,244 @@
+.main-section {
+  padding: 50px 0;
+}
+.contact-btn {
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.modal-content {
+  border-radius: 10px;
+  padding: 20px;
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-header .close {
+  font-size: 1.5rem;
+}
+
+.service-section {
+  margin-left: auto;
+  padding: 50px 0;
+}
+.service-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.service-section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: red;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+.hover-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center;
+}
+.service-card {
+  position: relative;
+}
+.service-card:hover .hover-content {
+  opacity: 1;
+}
+.hover-content h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: aliceblue;
+  text-align: center;
+}
+.hover-content a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s, color 0.3s;
+}
+.hover-content a:hover {
+  background-color: white;
+  text-align: center;
+  color: #000;
+}
+
+
+.carousel-item img {
+width: 100%;
+height: auto;
+}
+.carousel-indicators {
+bottom: -30px;
+right: 50%;
+transform: translateX(-50%);
+display: flex;
+justify-content: center;
+margin-top: 10%; 
+position: absolute;
+}
+.carousel-indicators li {
+background-color: #000;
+width: 10px;
+height: 10px;
+border-radius: 50%;
+margin-top: 10px;
+margin-left: 30px;
+}
+.carousel-indicators .active {
+background-color: transparent;
+border: 2px solid #ff2e63;
+}
+.carousel-caption {
+background: rgba(255, 255, 255, 0.8);
+padding: 15px;
+}
+.carousel-caption h5 {
+color: #ff2e63;
+}
+.carousel-caption p {
+color: #000;
+}
+.carousel-caption .btn {
+background-color: red;
+color: #fff;
+}
+.carousel-item img.hover-img {
+content: url('https://digitalsparkagency.netlify.app/Assets/images/1.png'); /* Change to the hover image URL */
+}
+
+
+.project-section {
+  text-align: center;
+  padding: 50px 0;
+}
+.project-section h3 {
+  color: red;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.project-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.project-card {
+  padding: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.project-card.active {
+  background-color: red;
+  color: white;
+}
+.project-card h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.project-card p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+.project-image {
+  display: none;
+}
+.project-image.active {
+  display: block;
+}
+
+
+
+.growth-section {
+  background-color: #f2f2f2;
+  padding: 50px 0;
+}
+.growth-section h1 {
+  margin-bottom: 20px;
+  font-size: medium;
+  color: red;
+}
+.growth-section .growth-box {
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  margin: 10px;
+}
+.growth-section .growth-box i {
+  font-size: 50px;
+  color: red;
+  margin-bottom: 10px;
+}
+.feedback-section {
+  padding: 50px 0;
+}
+.feedback-section h1 {
+  margin-bottom: 30px;
+  font-size: medium;
+  color: red;
+}
+.feedback-section .feedback-box {
+  text-align: center;
+ 
+
+}
+.feedback-section .feedback-box p {
+  font-style: italic;
+  font-size: medium;
+  margin: 0%;
+  
+}
+.feedback-section .feedback-box .author {
+  font-weight: bold;
+  font-style: italic;
+  font-size:x-small;
+  color: red;
+  margin-top: 10px;
+}
+
+
+.logo-section {
+  background-color: #e60000; /* Red background color */
+  padding: 50px 0px;
+  text-align: center;
+}
+.logo-section img {
+  max-width: 1000px;
+  margin: 20px;
+  filter: brightness(0) invert(1); /* Makes the logos white */
+}
+
+
+.icon img {
+  width: 100px;
+  height: 100px;
+}
+.text-danger {
+  color: red !important;
+}
+.font-weight-bold {
+  font-weight: 700 !important;
+}
